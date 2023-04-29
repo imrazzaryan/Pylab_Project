@@ -7,4 +7,4 @@ def generate():
     return ''.join(random.choices(l, k=n))
 
 
-print("The generated OTP is ", generate())
+print("The generated password is ", generate())
